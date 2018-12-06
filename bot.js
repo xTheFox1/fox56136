@@ -38,4 +38,9 @@ if (message.content.startsWith(adminprefix + 'setava4747')) {
 });
 
 
+
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
